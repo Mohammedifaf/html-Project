@@ -19,3 +19,6 @@ picture{display:contents}
 .service-text li a:hover{text-decoration:underline}
 @media(max-width:1020px){.link-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.link-grid{grid-template-columns:1fr}.facts div{grid-template-columns:1fr;gap:4px}}
+/* Contrast fixes (WCAG AA) */
+.capability-v8 span,.link-grid span,.facts dt,.contact-proof li span{color:#566a7e}
+.capability-v8 p{color:#526377}
