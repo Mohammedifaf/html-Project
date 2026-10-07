@@ -22,3 +22,12 @@ picture{display:contents}
 /* Contrast fixes (WCAG AA) */
 .capability-v8 span,.link-grid span,.facts dt,.contact-proof li span{color:#566a7e}
 .capability-v8 p{color:#526377}
+/* Usability: legible text and finger-friendly tap targets on phones */
+@media(max-width:700px){
+.kicker,.breadcrumb,.service-no,.link-grid span,.capability-v8 span,.value-grid span,.facts dt,.service-visual figcaption,.contact-proof li span,.service-card-copy span,.portfolio-copy span,.featured-case-copy span,.mini-case span,.footer-bottom{font-size:12px}
+.site-footer>div>div:not(.footer-brand) a{padding:12px 0;margin:0}
+.breadcrumb a{display:inline-block;padding:12px 0}
+.text-link{min-height:44px}
+.intro-links a,.case-links a,.contact-inline a,.faq-list p a,.facts a{display:inline-block;padding:10px 0}
+}
+.footer-bottom span span{display:inline;margin:0}

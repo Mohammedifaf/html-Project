@@ -68,6 +68,32 @@ All the new pages are linked from the homepage, the Services page, the portfolio
 
 ---
 
+## V10 fixes after the SEOptimer audit (Links F, Usability D)
+
+**Fixed in the code**
+- **`vercel.json` added.** Vercel ignores `_redirects`, `_headers` and `.htaccess`, so the redirects, trailing slashes, caching and security headers now also work on Vercel.
+- **Email privacy.** The email address no longer appears as plain text in the page source, which SEOptimer flags as a spam risk. It is HTML-encoded and still shows and clicks normally for visitors.
+- **Tap targets and font sizes.** Footer, breadcrumb and text links have 44px+ touch areas on phones, and small labels are at least 12px on mobile.
+- **Mobile footer bug.** The "© 2026" line no longer breaks onto three lines.
+- **Faster mobile images.** Unsplash images now load a 480/800/1200px version that fits the screen, instead of always loading 1000–1500px. CSS is properly minified.
+
+**Links = F is about backlinks, not code.** SEOptimer grades how many other websites link to yours. A new site on `*.vercel.app` has almost none, so it gets an F whatever the code does. To raise it:
+1. Add "Website by IfafWebStudio" with a link on all 5 client websites (the fastest win).
+2. Create a Google Business Profile, a LinkedIn company page, a Facebook page, and Justdial / Sulekha / Clutch / GoodFirms listings, all linking to your site.
+3. Link the website from your Instagram bio.
+
+**Connect your real domain in Vercel.** The site is currently audited at `ifafwebstudiocom-omega.vercel.app`, but every page tells Google the official address is `https://ifafwebstudio.com/`.
+- If you own `ifafwebstudio.com`, go to Vercel → Project → Settings → **Domains**, add `ifafwebstudio.com` and `www.ifafwebstudio.com` (set www to redirect to the main one), then update the DNS records Vercel shows you.
+- Then run SEOptimer on `https://ifafwebstudio.com`, not the vercel.app address.
+- Backlinks also need to point at your real domain to count.
+- If you use a different domain, tell me and I'll update every canonical URL, the sitemap and llms.txt.
+
+**Social and analytics (shown in SEOptimer's Social and Technology sections).**
+- Link real Facebook, LinkedIn and YouTube profiles if you have them; send them to me and I'll add them to the footer and schema.
+- Turn on **Vercel Web Analytics** (Project → Analytics) or create a Google Analytics 4 property and send me the `G-XXXX` ID to add.
+
+---
+
 ## What YOU need to do next (off-site, these matter as much as the code)
 
 ### This week
