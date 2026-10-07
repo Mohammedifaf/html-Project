@@ -1,0 +1,47 @@
+# IfafWebStudio
+
+> IfafWebStudio is a founder-led website development and digital business support studio based in Manipal (Udupi district), Karnataka, India, run by Mohammed Ifaf. It builds business, WordPress, hotel/resort/homestay, restaurant and taxi/travel websites, and provides local SEO, Google Business Profile optimization, GEO/AEO, AI chatbots, WhatsApp automation and content support for businesses in Manipal, Udupi and across India.
+
+Key facts:
+
+- Name: IfafWebStudio (also written "Ifaf Web Studio")
+- Founder: Mohammed Ifaf — AI Website Developer & Digital Business Support
+- Location: Manipal, Udupi district, Karnataka 576104, India
+- Serves: Manipal, Udupi, Karnataka and clients across India (work is coordinated over WhatsApp, phone and email)
+- Focus: hospitality (hotels, resorts, homestays, guest houses), travel and taxi, restaurants and local-service businesses
+- Phone / WhatsApp: +91 96860 44715
+- Email: mohammedifaf522@gmail.com
+- Instagram: https://www.instagram.com/ifafwebstudio/
+- Budget ranges listed on the enquiry form start from ₹20,000–₹30,000; final cost depends on scope
+- The website does not publish invented testimonials, awards, client counts, rankings or performance statistics
+
+## Main pages
+
+- [Home](https://ifafwebstudio.com/): Overview of the studio, services, selected work and FAQs
+- [Services](https://ifafwebstudio.com/services/): All five service areas — web development, hospitality & local business websites, AI & automation, SEO & digital visibility, content & creative
+- [Work / Portfolio](https://ifafwebstudio.com/work/): Five real, live client websites
+- [About](https://ifafwebstudio.com/about/): Mohammed Ifaf and how the studio works
+- [Contact](https://ifafwebstudio.com/contact/): WhatsApp enquiry form, phone, email and Instagram
+
+## Service pages
+
+- [Business & WordPress website development](https://ifafwebstudio.com/services/wordpress-website-development/): WordPress, custom-coded and responsive websites, redesigns
+- [Hotel, resort & homestay websites](https://ifafwebstudio.com/services/hotel-resort-website-development/): Rooms, galleries, location and direct WhatsApp booking enquiries
+- [Restaurant websites & QR digital menus](https://ifafwebstudio.com/services/restaurant-website-qr-menu/): Mobile menus, QR menus, timings, location and Google Business Profile
+- [Taxi & travel websites](https://ifafwebstudio.com/services/taxi-travel-website-development/): Fleet, routes, service areas and one-tap booking
+- [AI chatbots & WhatsApp automation](https://ifafwebstudio.com/services/ai-chatbot-whatsapp-automation/): AI chatbots, WhatsApp automation, AI business assistants, workflow automation
+- [Local SEO, Google Business Profile, GEO & AEO](https://ifafwebstudio.com/services/local-seo-google-business-profile/): Technical SEO, local SEO, GBP optimization, generative and answer engine optimization
+- [Website developer in Udupi](https://ifafwebstudio.com/website-developer-udupi/): Web development for Udupi businesses from nearby Manipal
+
+## Live portfolio
+
+- [East West Travels](https://eastwesttravelsmanipal.com/): Travel & taxi website, Manipal
+- [AMB Guest House](https://ambguesthouse.com/): Guest house / hospitality website
+- [Island Resort](https://islandresort.in/): Resort website, Udupi
+- [Golden Riveria](https://goldenriveria.com/): Resort website
+- [EazyRide Cab](https://eazyridecab.com/): Taxi service website
+
+## Optional
+
+- [Full site content as plain text](https://ifafwebstudio.com/llms-full.txt)
+- [Sitemap](https://ifafwebstudio.com/sitemap.xml)

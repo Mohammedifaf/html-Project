@@ -1,0 +1,56 @@
+# IfafWebStudio — Apache / cPanel / Hostinger configuration
+Options -Indexes
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+AddDefaultCharset utf-8
+AddType text/plain .txt
+AddType application/manifest+json .webmanifest
+AddType image/avif .avif
+AddType image/webp .webp
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# One canonical host: https://ifafwebstudio.com (no www, always HTTPS)
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://ifafwebstudio.com/$1 [R=301,L]
+
+# Old .html URLs -> clean URLs
+RewriteRule ^services\.html$ /services/ [R=301,L]
+RewriteRule ^portfolio\.html$ /work/ [R=301,L]
+RewriteRule ^portfolio/?$ /work/ [R=301,L]
+RewriteRule ^about\.html$ /about/ [R=301,L]
+RewriteRule ^contact\.html$ /contact/ [R=301,L]
+RewriteRule ^udupi/?$ /website-developer-udupi/ [R=301,L]
+
+# /index.html and /folder/index.html -> / and /folder/
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.html[\s?] [NC]
+RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+Header always set X-Frame-Options "SAMEORIGIN"
+<Files "404.html">
+Header set X-Robots-Tag "noindex"
+</Files>
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json application/ld+json application/manifest+json image/svg+xml
+</IfModule>
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault "access plus 1 hour"
+ExpiresByType text/html "access plus 0 seconds"
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+ExpiresByType image/webp "access plus 30 days"
+ExpiresByType image/avif "access plus 30 days"
+ExpiresByType image/png "access plus 30 days"
+ExpiresByType image/jpeg "access plus 30 days"
+ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>

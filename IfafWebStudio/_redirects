@@ -1,0 +1,9 @@
+# Netlify / Cloudflare Pages: old .html URLs -> clean URLs
+/services.html   /services/  301
+/portfolio.html  /work/      301
+/portfolio       /work/      301
+/portfolio/      /work/      301
+/about.html      /about/     301
+/contact.html    /contact/   301
+/udupi           /website-developer-udupi/  301
+/udupi/          /website-developer-udupi/  301
